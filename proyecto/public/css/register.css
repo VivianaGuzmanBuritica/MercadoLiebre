@@ -1,0 +1,66 @@
+main{
+    border:solid 1px #eee;
+  
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: whitesmoke;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:none;
+}
+
+fieldset input{
+    display: flex;
+    justify-content: start;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:5%;
+}
+
+.perfil{
+    display: flex;
+    position: relative;
+}
+
+.buyer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+}
+
+.seller {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.electro, .moda, .hogar, .jugueteria, .vidaSana{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+legend{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+    
+
+ 
+
