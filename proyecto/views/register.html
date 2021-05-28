@@ -15,55 +15,57 @@
 
 <body>
     <header>
-        <div class="main-header-top-bar">
-            <div class="main-header-mobile">
-                <img src="images/logo-mercado-liebre.svg" class="logo">
-                <!--barra de busqueda y boton lupa-->
-                <form action="" method="post" target="_blank">
+        <!-----------------------------Logo, barra de busqueda y anuncio-------------------------------------------------->
+        <section class="main-header-top-bar">
+            <article class="main-header-mobile">
+                <figure>
+                    <a href="/"><img src="images/logo-mercado-liebre.svg" class="logo" alt=""></a>
+                </figure>
+                <form action="text" method="post" target="_blank">
                     <p>
-                        <input type="search" placeholder="Buscar productos, marcas">
+                        <input type="search" placeholder="Buscar productos, marcas y más">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </p>
                 </form>
-            </div>
-            <div class="compra"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</div>
-        </div>
-
+            </article>
+            <p class="compra"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        </section>
+        <!-----------------------------Menu navegacion-------------------------------------------------->
         <nav>
             <ul id="navbar">
-                <li><a href="#">Ofertas</a></li>
+                <li><a href="/">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <ul id='cuenta'>
                 <li><a href="/register">Crea tu cuenta </a><i class="far fa-id-card"></i></li>
-                <li><a href="#">Ingresa </a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="/login">Ingresa </a><i class="fas fa-sign-in-alt"></i></li>
                 <li><a href="#">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
             </ul>
         </nav>
 
-        <!--Icono burger-->
-        <div class="iconos" id="bars">
+        <!-----------------------------Icono burger-------------------------------------------------->
+        <section class="iconos" id="bars">
             <span class="fa-stack fa-2x">
                 <i class="fas fa-square fa-stack-2x"></i>
                 <i class="fas fa-bars fa-stack-1x fa-inverse"></i>
             </span>
-        </div>
+        </section>
     </header>
 
     <main>
         
-
         <form>
 
-            <fieldset>
+            <fieldset class="usuario">
+                <legend>Crea tu usuario</legend>
                 <input type="text" name="name" id="name" required placeholder="Nombre y apellidos">
                 <input type="text" name="user" id="user" required placeholder="Nombre de usuario">
                 <input type="email" name="email" id="email" required placeholder="Nombre de usuario">
             </fieldset>
 
-            <fieldset>
+            <fieldset class="nacimiento">
                 <legend>Fecha de nacimiento</legend>
                 <input type="date" name="birthdate" id="birthdate" required placeholder="mm/dd/yyyy">
                 <input type="text" name="address" id="address" required placeholder="Domicilio">
@@ -86,13 +88,13 @@
                 <div class='electro'>
                     <input type="checkbox" name="electro" id='electro'>
                     <label for='electro'>Electro</label>
-                    </div>
-                    
-                    <div class='moda'>
-                        <input type="checkbox" name="moda" id="moda">
-                        <label for="moda">Moda</label>
-                    </div>
                 </div>
+
+                <div class='moda'>
+                    <input type="checkbox" name="moda" id="moda">
+                    <label for="moda">Moda</label>
+                </div>
+               
                 <div class='hogar'>
                     <input type="checkbox" name="hogar" id="hogar">
                     <label for="hogar">Hogar</label>
@@ -102,18 +104,20 @@
                     <input type="checkbox" name="jugueteria" id="jugueteria">
                     <label for="jugueteria">Juguetería</label>
                 </div>
+
                 <div class='vidaSana'>
                     <input type="checkbox" name="vidaSana" id="vidaSana">
                     <label for="vidaSana">Vida Sana</label>
                 </div>
             </fieldset>
-
-
-
-
+            <fieldset class="boton">
+                <button type="submit">Registrarme</button>
+            </fieldset>
         </form>
     </main>
 
+    <!-----------------------------Footer-------------------------------------------------->
+    
     <footer>
         <img src="images/img-home-banner.jpg" alt="">
         <section>

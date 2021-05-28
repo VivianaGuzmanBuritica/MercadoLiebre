@@ -15,43 +15,43 @@
 
 <body>
     <header>
-        <div class="main-header-top-bar">
-            <div class="main-header-mobile">
-                <img src="images/logo-mercado-liebre.svg" class="logo">
-                <!--barra de busqueda y boton lupa-->
-                <form action="" method="post" target="_blank">
-                    <p>
-                        <input type="search" placeholder="Buscar productos, marcas">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    <p>
+        <!-----------------------------Logo, barra de busqueda y anuncio-------------------------------------------------->
+        <section class="main-header-top-bar">
+            <article class="main-header-mobile">
+                <figure>
+                    <a href="/"><img src="images/logo-mercado-liebre.svg" class="logo" alt=""></a>
+                </figure>
+                <form action="text" method="post" target="_blank">
+                    <input type="search" placeholder="Buscar productos, marcas y más">
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
-            </div>
-            <div class="compra"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</div>
-        </div>
-
+            </article>
+            <p class="compra"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        </section>
+        <!-----------------------------Menu navegacion-------------------------------------------------->
         <nav>
             <ul id="navbar">
-                <li><a href="#">Ofertas</a></li>
+                <li><a href="/">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <ul id='cuenta'>
                 <li><a href="/register">Crea tu cuenta </a><i class="far fa-id-card"></i></li>
-                <li><a href="#">Ingresa </a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="/login#">Ingresa </a><i class="fas fa-sign-in-alt"></i></li>
                 <li><a href="#">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
             </ul>
         </nav>
 
-        <!--Icono burger-->
-        <div class="iconos" id="bars">
+        <!-----------------------------Icono burger-------------------------------------------------->
+        <section class="iconos" id="bars">
             <span class="fa-stack fa-2x">
                 <i class="fas fa-square fa-stack-2x"></i>
                 <i class="fas fa-bars fa-stack-1x fa-inverse"></i>
             </span>
-        </div>
+        </section>
     </header>
-
+    <!--------------------------------login------------------------------------------------->
     <main>
         <form>
             <fieldset>
@@ -61,7 +61,7 @@
             </fieldset>
         </form>
     </main>
-
+    <!-----------------------------Footer-------------------------------------------------->
     <footer>
         <img src="images/img-home-banner.jpg" alt="">
         <section>
