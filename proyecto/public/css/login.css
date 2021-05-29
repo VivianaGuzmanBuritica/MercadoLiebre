@@ -1,33 +1,21 @@
 form *{
+    border:none;
     margin: 0 auto;
-    border: none;       
+    
 }
 
- form{
-    margin: 0 auto;
-    border: none;     
-}
-
-fieldset.search{
+.login input, .login button{
+    background-color:#fff;
     display: flex;
     align-items: center;
     padding: 5px;
     border-radius: 5px;
     border: none;
-    width: 30%;
-}
-
-fieldset input, fieldset button{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    width: 300px;
+    width: 50vmin;
     margin-top: 18px;  
 }
 
-fieldset button{
+.login button{
     background-color: #1259c3;
     color: white;
     justify-content: center;
