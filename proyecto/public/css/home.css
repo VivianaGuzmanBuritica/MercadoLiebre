@@ -315,6 +315,10 @@ footer p{
         margin-top: -2%;
     }
 
+    footer .iconos{
+        display: block;
+    }
+
     @keyframes envio{
         0%{opacity: 100%;}
         100%{transform: translateX(-310px); opacity: 0%;}
@@ -342,6 +346,10 @@ footer p{
         padding-bottom:10px;
     }
 
+    .pie{
+        display: flex;
+        flex-direction: row;
+    }
     .footer-items{
         display: flex;
         flex-direction: column;
