@@ -1,44 +1,43 @@
-main form {
+main #login {
     margin: 0 auto;
     border: none;  
-    width: 300px;
-    height: 300px;   
+    width: 60%;
+    height: 100%;   
+    padding-top:40px;
+    
     background-color: whitesmoke;
     border-radius: 6px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }  
 
-
-form fieldset{
+#login fieldset{
     display: flex;
     flex-direction: column;
     padding: 16px;
     border: none;
 }
 
-fieldset input{
-    
-    display: flex;
-    justify-content: start;
-    margin-right: 10px;
+#login fieldset input{
+    width: 100%;
     padding: 5px;
     border-radius: 5px;
     border: none;
-    margin-bottom:5%;
+    margin-bottom:8%;
 }
     
-    fieldset button{
-        width:100px ;
-        background-color: #1259c3;
-        color: white;
-        margin-bottom:10px;
-        padding:5px;
-        border:none;
-        border-radius: 6px;
-    }
-  
-
+main form fieldset button{
+    width: 50%;
+    background-color: #1259c3;
+    color: white;
+    margin-bottom:10px;
+    padding:5px;
+    border:none;
+    border-radius: 6px;
+    position: relative;
+    left: 25%;
+}
+    
 button:hover{
     background-color: #0022AA;
     animation: boton 500ms normal;

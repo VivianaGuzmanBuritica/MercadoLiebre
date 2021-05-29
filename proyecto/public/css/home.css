@@ -28,7 +28,7 @@ form{
     border: none;
 }
 
-form input{
+header form input{
     padding: 5px;
     border-radius: 5px;
     border: none;
@@ -37,7 +37,7 @@ form input{
     left: 40%;
 }
 
-form button{
+header form button{
     display: flex;
     padding: 5px;
     border-radius: 5px;
@@ -278,7 +278,7 @@ footer p{
         margin-top: 2%;
     }
     
-    form input{
+    header form input{
         width: 40%;
         left: 25%;
     }  
@@ -301,11 +301,11 @@ footer p{
         padding-top: 25%;
     }
 
-    form input{
+    header form input{
         width: 50%;
     }
 
-    form button{
+    header form button{
         position: absolute;
         right: 10%;
     }
