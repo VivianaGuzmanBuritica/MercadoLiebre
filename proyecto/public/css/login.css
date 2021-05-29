@@ -3,6 +3,11 @@ form *{
     border: none;       
 }
 
+ form{
+    margin: 0 auto;
+    border: none;     
+}
+
 fieldset.search{
     display: flex;
     align-items: center;

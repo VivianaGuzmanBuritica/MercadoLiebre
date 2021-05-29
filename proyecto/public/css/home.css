@@ -87,6 +87,7 @@ main{
     background-color: #ebebeb;
     background-position: center center;
     padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 .productos{
@@ -155,6 +156,7 @@ main{
     }
 
 .titulares{
+   
     font-size: 24px;
     font-weight: bold;
     padding-left: 10px;
@@ -165,7 +167,7 @@ main{
     text-decoration: none;
 }
 
-#precio{
+.precio{
     font-size: 18px;
     padding-top: 10px;
     font-weight: bold;
@@ -261,7 +263,7 @@ footer p{
         max-width: 100%;
     }
 
-    article{
+    .contenedor-productos{
         display: flex;
     }
 
@@ -320,12 +322,8 @@ footer p{
 }
 
 @media (min-width:922px){
-      section{
+     .grupos-productos{
         display: flex;
-    }
-
-    .titulares{
-        display: inline-block;
     }
 
     .main-header-top-bar{

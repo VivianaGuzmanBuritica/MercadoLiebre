@@ -1,20 +1,20 @@
 main{
-    border:solid 1px #eee;
-  
+    background-attachment: #ebebeb;
+}
+
+main form{
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 form fieldset{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    background-color: whitesmoke;
     padding: 16px;
-    border-radius: 8px;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border:none;
+    border: none;
 }
 
 fieldset input{
@@ -32,9 +32,8 @@ fieldset input{
     position: relative;
 }
 
-.buyer{
+.buyer{ 
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     position: absolute;
     bottom: 5px;
@@ -42,22 +41,61 @@ fieldset input{
 
 .seller {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     position: absolute;
-    right: 10px;
+    right: 35px;
     bottom: 5px;
 }
 
-.electro, .moda, .hogar, .jugueteria, .vidaSana{
+.buyer, .seller, .electro, .moda, .hogar, .jugueteria, .vidaSana{
     display: flex;
     flex-wrap: wrap;
 }
 
 legend{
-    padding-top: 20px;
+    padding-top: 30px;
     font-weight: bold;
 }
+
+fieldset button{
+    width:100px ;
+    background-color: #1259c3;
+    color: white;
+    margin-bottom:10px;
+    padding:5px;
+    border:none;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: #0022AA;
+    animation: boton 500ms normal;
+}
+
+@keyframes boton{
+    0%{background-color:#1259c3;}
+    100%{background-color: #0022AA;}
+}
+
+@media (max-width:590px){
+
+    .usuario input {
+    width:35vmin ;
+    }
+
+    .nacimiento input {
+    width:35vmin ;
+    }
+    .buyer, .seller{
+    position:initial;
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+
+
+
 
 
     
