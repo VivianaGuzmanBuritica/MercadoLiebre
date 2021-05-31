@@ -4,6 +4,10 @@
  box-sizing: border-box;   
 }
 
+h3 *{
+display: none;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -233,6 +237,10 @@ footer p{
 }
 
 @media (min-width:577px){
+
+    h3 {
+        display: none;
+        }
     
     .elemento-producto, .foto{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -299,6 +307,10 @@ footer p{
 }
 
 @media (max-width:576px){
+
+    h3 {
+        display: none;
+        }
     
     #navbar, #cuenta {
         display: none;
@@ -344,7 +356,12 @@ footer p{
 }
 
 @media (min-width:922px){
-     .grupos-productos{
+    
+    h3 {
+        display: none;
+        }
+    
+    .grupos-productos{
         display: flex;
     }
 
