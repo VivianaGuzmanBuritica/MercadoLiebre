@@ -249,8 +249,9 @@ footer p{
     }
     
     .compra{
-       width: 30%;
-      margin-top: 5%;
+        width: 30%;
+        margin-top: 5%;
+        margin-right: 2%;
     }
 
     nav {
@@ -268,7 +269,7 @@ footer p{
         display: flex;
     }
 
-    h2{
+    .pie h2{
         display: none;
     }
 
@@ -326,6 +327,10 @@ footer p{
     .logo{
         width: 35%;
         margin-top: -2%;
+    }
+
+    .pie h2{
+        display: none;
     }
 
     footer .iconos{
@@ -386,6 +391,7 @@ footer p{
         position: absolute;
         justify-content:left;
         padding-left: 20px;
+        padding-bottom: 0%;
      }
 }
 
