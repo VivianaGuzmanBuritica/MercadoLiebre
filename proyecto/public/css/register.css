@@ -57,6 +57,14 @@ legend{
     font-weight: bold;
 }
 
+footer .iconos{
+    display: block;
+}
+
+footer h2{
+    display: none;
+}
+
 fieldset button{
     width:100px ;
     background-color: #1259c3;
